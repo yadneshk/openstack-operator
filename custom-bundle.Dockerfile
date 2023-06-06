@@ -10,7 +10,7 @@ ARG DATAPLANE_BUNDLE=quay.io/openstack-k8s-operators/dataplane-operator-bundle:l
 ARG NOVA_BUNDLE=quay.io/openstack-k8s-operators/nova-operator-bundle:latest
 ARG IRONIC_BUNDLE=quay.io/openstack-k8s-operators/ironic-operator-bundle:latest
 ARG BAREMETAL_BUNDLE=quay.io/openstack-k8s-operators/openstack-baremetal-operator-bundle:latest
-ARG TELEMETRY_BUNDLE=quay.io/openstack-k8s-operators/telemetry-operator-bundle:latest
+ARG TELEMETRY_BUNDLE=quay.io/yadneshk/telemetry-operator-bundle:devel-latest
 # we obtain the needed ENV vars containing defaults from storage operators
 ARG OPENSTACK_STORAGE_BUNDLE=quay.io/openstack-k8s-operators/openstack-operator-storage-bundle:latest
 ARG HORIZON_BUNDLE=quay.io/openstack-k8s-operators/horizon-operator-bundle:latest

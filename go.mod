@@ -97,3 +97,5 @@ require (
 )
 
 replace github.com/openstack-k8s-operators/openstack-operator/apis => ./apis
+
+replace github.com/openstack-k8s-operator/telemetry-operator/api => github.com/yadneshk/telemetry-operator/api v0.0.0-20230606112705-105d3ee4ee6a
